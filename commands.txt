@@ -1,0 +1,57 @@
+1. Инсталирајте Git. Инструкции: 
+https://www.atlassian.com/git/tutorials/install-git#windows
+2. Креирајте нов repository во директориум со име lab1
+-git init
+3. Креирајте нова текстуална датотека со име l1.txt во директориумот 
+lab1
+kreirana datoteka manuelno
+4. Внесете го вашето име, презиме и индекс во првиот ред од датотеката 
+l1.txt и зачувајте ја
+vneseno manuelno vo datotekata l1.txt
+5. Комитувајте ја датотеката во git репозиториумот со порака "Initial 
+commit"
+-git add .
+-git commit -m "Initial commit"
+6. Модификувајте ја датотеката l1.txt така што во вториот ред ќе ја 
+додадете вашата насока
+modifikuvano manuelno
+7. Комитувајте ги промените со порака "modify l1.txt"
+-git add .
+-git commit -m "modify l1.txt"
+8. Креирајте нов репозиториум на вашиот GitHub account
+https://github.com/jovicailievski/Softversko.git
+9. Поврзете го вашиот локален репозиториум со GitHub репозиториумот и 
+именувајте го "origin"
+-git remote add origin https://github.com/jovicailievski/Softversko.git
+10. Направете push на локалниот репозиториум
+-git push -u origin master
+11. Направете промена во фајлот l1.txt и потоа вратете го во состојбата 
+од последниот commit со помош
+на git
+-git add .
+-git commit -m "test"
+-git reset --hard HEAD^
+12. Направете нов branch со име logging
+-git checkout -b logging
+13. Во новиот branch креирајте датотека log.txt каде ќе го запишете 
+излезот од командата "git log"
+-git log
+nano log.txt
+pasted git log output
+14. Направете push на новиот branch на GitHub
+-git add .
+-git commit -m "logging branch"
+-git push -u origin logging
+15. Спојте ja logging гранката кон master со помош на merge командата и 
+синхронизирајте ја промената со remote репозиториумот.
+-git checkout master
+-git merge logging
+-git commit -m "merging master with logging branch done"
+-git push -u origin master
+16. Направете нов branch со име allcomands
+-git checkout -b allcomands
+17. Во новиот branch креирајте датотека commands.txt каде ќе ги запишете 
+редоследно сите команди кои сте ги извршиле на оваа вежба
+18. Направете push на новиот branch на GitHub
+19. Спојте ja allcomands гранката кон master со помош на rebase 
+командата и синхронизирајте ја промената со remote репозиториумот.
