@@ -1,0 +1,14 @@
+commit dc1f380404a7931fccb781b954fa727e1fdaf3e1 (HEAD -> logging, 
+master)
+Author: unknown <jovica.ilievski@students.finki.ukim.mk>
+Date:   Fri Mar 16 15:49:56 2018 +0100
+
+    modify l1.txt
+
+commit 5e78e795adcdc1a8db38880d0c8b111423289f56
+Author: unknown <jovica.ilievski@students.finki.ukim.mk>
+Date:   Fri Mar 16 15:41:58 2018 +0100
+
+    Initial commit
+
+
